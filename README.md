@@ -33,6 +33,9 @@
 ##### Configure the Replit:
 
 Once the project is imported, you might need to set the main.go file as the entry point. You can do this by clicking on the Files icon, right-clicking on main.go, and selecting Set as Main File.
+in the shell run
+```go mod init example.com/m```
+```go mod tidy```
 
 #### Running the Program
 Click the Run button at the top of the page. The output will be displayed in the console.
