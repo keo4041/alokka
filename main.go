@@ -161,7 +161,6 @@ func transformBool(val string) interface{} {
 }
 
 func transformNull(val string) interface{} {
-	fmt.Println("transformBool val", val)
 	val = strings.TrimSpace(strings.ToLower(val))
 	switch val {
 	case "1", "t", "true":
